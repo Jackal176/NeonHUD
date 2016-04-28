@@ -2549,7 +2549,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReportPlayerButton"
-		"xpos"			"c-230"
+		"xpos"			"c-225"
 		"ypos"			"123"
 		"zpos"			"12"
 		"wide"			"32"
@@ -2585,12 +2585,16 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
 			"border_default"	""
-			"border_armed"		""
-			"paintbackground"	"0"
+			"border_armed"		"MainMenuTabs"
+			"paintbackground"	"1"
 			
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanLight"
+			
+			"defaultBgColor_override" "0 0 0 0"
+		    "armedBgColor_override" "44 44 44 240"
+		    "depressedBgColor_override" "44 44 44 240"
 			
 			"image_drawcolor"	"255 125 0 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -2616,7 +2620,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"c-105"
+		"xpos"			"c-200"
 		"ypos"			"123"
 		"zpos"			"12"
 		"wide"			"26"
@@ -2651,13 +2655,17 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"border_default"	"MainMenuMiniButtonDefault"
-			"border_armed"		"MainMenuMiniButtonArmed"
-			"paintbackground"	"0"
+			"border_default"	""
+			"border_armed"		"MainMenuTabs"
+			"paintbackground"	"1"
 			
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanLight"
+			
+			"defaultBgColor_override" "0 0 0 0"
+		    "armedBgColor_override" "44 44 44 240"
+		    "depressedBgColor_override" "44 44 44 240"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -2682,7 +2690,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"c-85"
+		"xpos"			"c-180"
 		"ypos"			"123"
 		"zpos"			"12"
 		"wide"			"26"
@@ -2717,13 +2725,17 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"border_default"	"MainMenuMiniButtonDefault"
-			"border_armed"		"MainMenuMiniButtonArmed"
-			"paintbackground"	"0"
+			"border_default"	""
+			"border_armed"		"MainMenuTabs"
+			"paintbackground"	"1"
 			
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanLight"
+			
+			"defaultBgColor_override" "0 0 0 0"
+		    "armedBgColor_override" "44 44 44 240"
+		    "depressedBgColor_override" "44 44 44 240"
 			
 			"image_drawcolor"	"255 125 0 255"
 			"image_armedcolor"	"255 125 0 255"

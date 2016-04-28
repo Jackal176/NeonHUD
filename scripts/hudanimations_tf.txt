@@ -234,7 +234,7 @@ event HudHealthDyingPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
-	Animate PlayerStatusHealthValue         fgcolor     "255 125 0 255" Linear 0.0 0.2
+	Animate PlayerStatusHealthValue         fgcolor     "243 92 25 255" Linear 0.0 0.2
 	
 	RunEvent HudHealthDyingPulseLoop	0.25
 }
