@@ -3075,6 +3075,17 @@ Scheme
 			}
 		}
 		
+		PolenticalNeonBold8
+		{
+			"1"
+			{
+				"name"		"Polentical Neon Bold"
+				"tall"		"8"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
 	}
 
 	//

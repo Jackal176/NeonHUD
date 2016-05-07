@@ -19,7 +19,7 @@
 	{
 		"ControlName"	"CircularProgressBar"
 		"fieldName"	"ProgressBar"
-		"xpos"		"c-30"
+		"xpos"		"c-32"
 		"xpos_minmode"		"18"
 		"ypos"		"c-150"
 		"ypos_minmode"		"3"
@@ -82,7 +82,7 @@
 		"fieldName"		"ProgressText"
 		"font"			"DefaultSmall"
 		"font_minmode"			"DefaultVerySmall"
-		"xpos"			"c-35"
+		"xpos"			"c-37"
 		"xpos_minmode"			"10"
 		"ypos"			"c-140"
 		"ypos_minmode"			"0"
@@ -105,7 +105,7 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"	"Blocked"
-		"xpos"		"c-30"
+		"xpos"		"c-32"
 		"xpos_minmode"		"18"
 		"ypos"		"c-150"
 		"ypos_minmode"		"2"

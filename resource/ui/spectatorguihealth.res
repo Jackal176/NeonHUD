@@ -44,9 +44,9 @@
 		"ypos"			"2"
 		"ypos_minmode"	"3"
 		"zpos"			"2"
-		"wide"			"28"
+		"wide"			"0"
 		"wide_minmode"	"22"
-		"tall"			"28"
+		"tall"			"0"
 		"tall_minmode"	"22"
 		"visible"		"0"
 		"enabled"		"1"
@@ -95,7 +95,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueBG"
-		"xpos"			"-3"
+		"xpos"			"-4"
 		"xpos_minmode"	"7"
 		"ypos"			"2"
 		"ypos_minmode"	"7"
@@ -109,7 +109,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"PolenticalNeonBold16"
-		"fgcolor"		"155 155 155 255"
+		"fgcolor"		"75 75 75 255"
 	}
 	"PlayerStatusPlayerLevel"
 	{

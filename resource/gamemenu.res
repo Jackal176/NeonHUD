@@ -26,15 +26,15 @@
 		"label" "#MMenu_PlayCoop" 
 		"command" "playpve"
 		"subimage" "glyph_coop"
-		"OnlyAtMenu" "1"
+		"OnlyAtMenu" "0"
 	}
 	"PlayCompetitiveButton"
 	{
 		"label" "#MMenu_PlayComp" 
 		"command" "ladder_ui_show"
 		"subimage" "glyph_practice"
-		"OnlyAtMenu" "1"
-		"OnlyWhenCompetitiveEnabled" "1"
+		"OnlyAtMenu" "0"
+		"OnlyWhenCompetitiveEnabled" "0"
 	}
 	"ServerBrowserButton"
 	{
@@ -74,7 +74,7 @@
 		"label" "#TF_Training"
 		"command" "offlinepractice"
 		"subimage" "glyph_practice"
-		"OnlyAtMenu" "1"
+		"OnlyAtMenu" "0"
 	}
 	
 	// These buttons get positioned by the MainMenuOverride.res	

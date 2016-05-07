@@ -91,16 +91,16 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
+		"xpos"			"c-38"	[$WIN32]
 		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
+		"ypos"			"c138"	[$WIN32]
 		"ypos_minmode"	"r40"	[$WIN32]
 		"xpos"			"r112"	[$X360]
 		"ypos"			"r45"	[$X360]
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
+		"wide"			"100"
 		"wide_minmode"	"50"
-		"tall"			"8"
+		"tall"			"5"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}	
@@ -110,16 +110,16 @@
 		"fieldName"		"HudBowCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
+		"xpos"			"c-38"	[$WIN32]
 		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
+		"ypos"			"c138"	[$WIN32]
 		"ypos_minmode"	"r40"	[$WIN32]
 		"xpos"			"r112"	[$X360]
-		"ypos"			"r45"	[$X360]
+		"ypos"			"r46"	[$X360]
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
+		"wide"			"100"
 		"wide_minmode"	"50"
-		"tall"			"8"
+		"tall"			"70"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -199,8 +199,8 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"r162"	[$WIN32]
-		"ypos"					"r152"	[$WIN32]
+		"xpos"					"c80"	[$WIN32]
+		"ypos"					"c33"	[$WIN32]
 		"ypos_minmode"			"r134"	[$WIN32]
 		"xpos"					"r194"	[$X360]
 		"ypos"					"r174"	[$X360]
@@ -329,10 +329,10 @@
 		"fieldName" "BuildingStatus_Engineer"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"
+		"xpos"		"c-390"
 		"xpos_hidef"		"32"
 		"xpos_lodef"		"40"
-		"ypos"		"0"
+		"ypos"		"c-85"
 		"ypos_hidef"		"16"
 		"ypos_lodef"		"25"
 		"wide"		"640"
@@ -996,9 +996,9 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c-225"
-		"ypos"			"c-59"
+		"ypos"			"c-55"
 		"wide"			"450"
-		"tall"			"200"
+		"tall"			"195"
 		"PaintBackgroundType"	"0"
 	}
 
@@ -1034,9 +1034,9 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c85"	[$WIN32]
+		"xpos"			"c-35"	[$WIN32]
 		"xpos_minmode"	"r110"	[$WIN32]
-		"ypos"			"c135"	[$WIN32]
+		"ypos"			"c120"	[$WIN32]
 		"ypos_minmode"	"r30"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r74"	[$X360]

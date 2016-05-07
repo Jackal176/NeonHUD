@@ -5,8 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r184"	[$WIN32]
-		"ypos"			"r92"	[$WIN32]
+		"xpos"			"c-30"	[$WIN32]
+		"ypos"			"c121"	[$WIN32]
 		"xpos_minmode"	"r42"	[$WIN32]
 		"ypos_minmode"	"r68"	[$WIN32]
 		"xpos"			"r194"	[$X360]
@@ -21,8 +21,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"12"
-		"ypos"			"0"
+		"xpos"			"c12"
+		"ypos"			"c0"
 		"zpos"			"0"
 		"wide"			"100"
 		"tall"			"50"
@@ -41,10 +41,10 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"41"
-		"ypos"					"25"
+		"xpos"					"35"
+		"ypos"					"18"
 		"zpos"					"2"
-		"wide"					"41"
+		"wide"					"30"
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
@@ -52,14 +52,15 @@
 		"visible_minmode"		"1"
 		"ypos_minmode"			"0"
 		"xpos_minmode"			"0"
-		"textAlignment_minmode"			"west"
+		"textAlignment_minmode"			"center"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_ENERGYDRINK"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"PolenticalNeonBold6"
+		"fgcolor_override" "155 155 155 255"
 	}
 
 	"ItemEffectMeter"
@@ -67,19 +68,19 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"46"
+		"xpos"					"0"
 		"ypos"					"23"
 		"ypos_minmode"			"0"
 		"xpos_minmode"			"0"
 		"zpos"					"2"
-		"wide"					"30"
-		"wide_minmode"			"50"
+		"wide"					"100"
+		"wide_minmode"			"100"
 		"tall"					"5"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"textAlignment"			"Left"
+		"textAlignment"			"Center"
 		"dulltext"				"0"
 		"brighttext"			"0"
 	}					

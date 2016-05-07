@@ -105,7 +105,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"PolenticalNeonRegular32"
-		"fgcolor"		"155 155 155 255"
+		"fgcolor"		"75 75 75 255"
 	}								
 	"PlayerStatusBleedImage"
 	{
