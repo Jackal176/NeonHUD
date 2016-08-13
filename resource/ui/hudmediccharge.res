@@ -207,7 +207,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TeamBox"
-		"xpos"			"261"
+		"xpos"			"262"
 		"ypos"			"55"
 		"zpos"			"0"
 		"wide"			"69"

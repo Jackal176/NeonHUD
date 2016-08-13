@@ -146,7 +146,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetname%"
-		"textAlignment"		"west"
+		"textAlignment"		"North-West"
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
@@ -170,7 +170,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetdata%"
-		"textAlignment"		"west"
+		"textAlignment"		"Left"
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
@@ -184,13 +184,13 @@
 		"ypos_minmode"	"0"
 		"wide"			"40"
 		"tall"			"42"
-		"visible"		"1"
-		"enabled"		"1"	
+		"visible"		"0"
+		"enabled"		"0"	
 		"HealthBonusPosAdj"	"10"
 		"HealthDeathWarning"	"0.49"
-		"TFFont"		"PolenticalNeonBold14"
-		"HealthDeathWarningColor"	"PolenticalNeonBold14"
-		"TextColor"		"255 125 0 255"
+		"TFFont"		"HudFontSmall"
+		"HealthDeathWarningColor"	"HUDDeathWarning"
+		"TextColor"		"HudOffWhite"
 	}	
 	
 	"AmmoIcon"

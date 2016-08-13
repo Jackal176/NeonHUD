@@ -9,31 +9,32 @@
 	}
 	"QuickplayButton"
 	{
-		"label" "Play Casual" 
-		"command" "play_casual"
+		"label" "#MMenu_PlayMultiplayer" 
+		"command" "quickplay"
 		"subimage" "glyph_multiplayer"
 		"OnlyAtMenu" "1"
 	}
 	"QuickplayChangeButton"
 	{
 		"label" "#MMenu_NewGame" 
-		"command" "play_casual"
+		"command" "quickplay"
 		"subimage" "glyph_server"
 		"OnlyInGame" "1"
 	}
 	"PlayPVEButton"
 	{
-		"label" "Play MvM" 
-		"command" "play_mvm"
+		"label" "#MMenu_PlayCoop" 
+		"command" "playpve"
 		"subimage" "glyph_coop"
 		"OnlyAtMenu" "0"
 	}
-	"CompetitiveButton"
+	"PlayCompetitiveButton"
 	{
 		"label" "#MMenu_PlayComp" 
-		"command" "play_competitive"
+		"command" "ladder_ui_show"
 		"subimage" "glyph_practice"
 		"OnlyAtMenu" "0"
+		"OnlyWhenCompetitiveEnabled" "0"
 	}
 	"ServerBrowserButton"
 	{
@@ -70,16 +71,9 @@
 	}
 	"TrainingButton"
 	{
-		"label" "Training"
+		"label" "#TF_Training"
 		"command" "offlinepractice"
 		"subimage" "glyph_practice"
-		"OnlyAtMenu" "0"
-	}
-	"MOTD_ShowButtonPanel"
-	{
-		"label" "%"
-		"command" "motd_show"
-		"subimage" ""
 		"OnlyAtMenu" "0"
 	}
 	
@@ -93,13 +87,13 @@
 	}
 	"GeneralStoreButton"
 	{
-		"label" "Mann Co. Store"
+		"label" "#MMenu_Shop"
 		"command" "engine open_store"
 		"subimage" "glyph_store"
 	}	
 	"CharacterSetupButton"
 	{
-		"label" "Items"
+		"label" "#MMenu_CharacterSetup"
 		"command" "engine open_charinfo"
 		"subimage" "glyph_items"
 	}
@@ -137,19 +131,5 @@
 		"OnlyInGame"	"1"
 		"subimage"		"glyph_alert"
 		"tooltip"		"#MMenu_ReportPlayer"
-	}
-	"FindAGameButton"
-	{
-		"label" "#MMenu_FindAGame" 
-		"command" "toggle_play_menu"
-		"subimage" "glyph_multiplayer"
-		"OnlyAtMenu"	"1"
-	}
-	"FindAGameButtonHalfWidth"
-	{
-		"label" "#MMenu_FindAGame" 
-		"command" "toggle_play_menu"
-		"subimage" "glyph_multiplayer"
-		"OnlyInGame"	"1"
 	}
 }

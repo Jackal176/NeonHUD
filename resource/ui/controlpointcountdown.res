@@ -4,7 +4,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CapCountdownLabel"
-		"font"			"PolenticalNeonRegular16"
+		"font"			"HudFontMedium"
 		"font_minmode"		"HudFontMediumSmall"
 		"xpos"			"0"
 		"ypos"			"0"
