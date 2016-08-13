@@ -75,12 +75,12 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"-7"
+		"xpos"			"0"
 		"xpos_minmode"	"7"
 		"ypos"			"1"
 		"ypos_minmode"	"7"
 		"zpos"			"5"
-		"wide"			"45"
+		"wide"			"40"
 		"wide_minmode"	"14"
 		"tall"			"20"
 		"tall_minmode"	"14"
@@ -95,7 +95,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueBG"
-		"xpos"			"-4"
+		"xpos"			"0"
 		"xpos_minmode"	"7"
 		"ypos"			"2"
 		"ypos_minmode"	"7"

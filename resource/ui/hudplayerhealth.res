@@ -5,9 +5,9 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-250"		[$WIN32]
+		"xpos"			"c-280"		[$WIN32]
 		"xpos_minmode"	"-5"		[$WIN32]
-		"ypos"			"c55"	[$WIN32]
+		"ypos"			"c56"	[$WIN32]
 		"ypos_minmode"	"r88"	[$WIN32]
 		"xpos"			"32"	[$X360]
 		"ypos"			"r144"	[$X360]
@@ -127,10 +127,10 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TeamBox"
-		"xpos"			"120"
+		"xpos"			"118"
 		"ypos"			"90"
 		"zpos"			"0"
-		"wide"			"60"
+		"wide"			"62"
 		"tall"			"3"
 		"visible"		"1"
 		"enabled"		"1"

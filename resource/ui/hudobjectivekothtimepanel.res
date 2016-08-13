@@ -71,18 +71,18 @@
 			"textAlignment"		"center"
 			"labelText"		"0:00"
 
-			if_comp
+			if_match
 			{
 				"proportionaltoparent"	"1"
 
-				"xpos"			"15"
+				"xpos"			"23"
 				"xpos_minmode"	"15"
-				"ypos"			"9"
+				"ypos"			"10"
 				"ypos_minmode"	"9"
-				"tall"			"10"
-				"wide"			"35"
+				"tall"			"31"
+				"wide"			"45"
 				"wide_minmode"	"35"
-				"font"			"HudFontSmall"
+				"font"			"PolenticalNeonRegular16"
 				"font_minmode"	"HudFontSmall"
 				"font_lodef"	"HudFontSmall"
 			

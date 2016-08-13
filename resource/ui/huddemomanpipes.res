@@ -70,8 +70,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PipesPresentPanel"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"170"
+		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"50"
@@ -145,7 +145,7 @@
 			"font"			"PolenticalNeonRegular24"
 			"font_minmode"	"HudFontSmall"
 			"font_lodef"	"HudFontMediumBig"
-			"fgcolor"		"155 155 155 255"
+			"fgcolor"		"75 75 75 255"
 		}		
 	}
 	
@@ -153,8 +153,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"NoPipesPresentPanel"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"170"
+		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"50"
@@ -228,7 +228,7 @@
 			"font"			"PolenticalNeonRegular24"
 			"font_minmode"	"HudFontSmall"
 			"font_lodef"	"HudFontMediumBig"
-			"fgcolor"		"155 155 155 255"
+			"fgcolor"		"75 75 75 255"
 		}			
 	}				
 }

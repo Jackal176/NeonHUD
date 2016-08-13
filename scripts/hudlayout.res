@@ -16,9 +16,9 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c71"	[$WIN32]
+		"xpos"	"c121"	[$WIN32]
 		"xpos_minmode"	"r85"	[$WIN32]
-		"ypos"	"c110"	[$WIN32]
+		"ypos"	"c111"	[$WIN32]
 		"ypos_minmode"	"r36"	[$WIN32]
 		"xpos"	"r131"	[$X360]
 		"ypos"	"r77"	[$X360]
@@ -76,13 +76,13 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-166"	[$WIN32]
+		"xpos"			"c-165"	[$WIN32]
 		"xpos_minmode"	"r100"	[$WIN32]
 		"ypos"			"c90"	[$WIN32]
 		"ypos_minmode"	"r34"	[$WIN32]
 		"xpos"			"r174"	[$X360]
 		"ypos"			"r90"	[$X360]
-		"wide"			"1000"
+		"wide"			"950"
 		"tall"			"100"
 	}
 	
@@ -199,7 +199,7 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c80"	[$WIN32]
+		"xpos"					"c130"	[$WIN32]
 		"ypos"					"c33"	[$WIN32]
 		"ypos_minmode"			"r134"	[$WIN32]
 		"xpos"					"r194"	[$X360]
@@ -255,10 +255,10 @@
 	CMainTargetID
 	{
 		"fieldName" 	"CMainTargetID"
-		"visible" 	"0"
+		"visible" 	"1"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"285"
+		"ypos"		"c-80"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"tall_minmode"	 	"28"
@@ -267,7 +267,7 @@
 
 		if_vr
 		{
-			"ypos"		"370"
+			"ypos"		"c-126"
 			"x_offset"	"20"
 		}
 	}
@@ -275,27 +275,27 @@
 	CSpectatorTargetID
 	{
 		"fieldName" 	"CSpectatorTargetID"
-		"visible" 	"0"
+		"visible" 	"1"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"250"
+		"ypos"		"c20"
 		"wide"	 	"252"
-		"tall"	 	"35"
+		"tall"	 	"252"
 		"tall_minmode"	 	"28"
 		"priority"	"40"
 		"priority_lodef" "35"
 		
-		"x_offset" "20"
-		"y_offset" "20"
+		"x_offset" "0"
+		"y_offset" "0"
 	}
 	
 	CSecondaryTargetID
 	{
 		"fieldName" 	"CSecondaryTargetID"
-		"visible" 	"0"
+		"visible" 	"1"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"325"
+		"ypos"		"c-30"
 		"wide"	 	"252"
 		"tall"	 	"35"
 		"tall_minmode"	 	"28"
@@ -972,7 +972,7 @@
 		"enabled" 		"1"
 		"xpos"			"10"	[$WIN32]
 		"xpos"			"42"	[$X360]
-		"ypos"			"275"
+		"ypos"			"305"
 		"wide"	 		"320"
 		"tall"	 		"120"
 		"PaintBackgroundType"	"2"
@@ -1040,8 +1040,8 @@
 		"ypos_minmode"	"r30"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r74"	[$X360]
-		"wide"			"100"
-		"tall"			"50"
+		"wide"			"250"
+		"tall"			"60"
 	}	
 
 	HudTeamGoal
