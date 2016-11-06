@@ -18,7 +18,7 @@
 		"draw_corner_width" "0"
 		"draw_corner_height" "0"
 		
-		if_comp
+		if_match
 		{
 			"visible"	"0"
 		}
@@ -48,7 +48,7 @@
 		"color_warning"			"TimerProgress.Warning"
 		"percent_warning"		"0.75"
 
-		if_comp
+		if_match
 		{
 			"visible"	"0"
 		}
@@ -278,7 +278,7 @@
 			"xpos"					"cs-0.5"
 			"ypos"					"17"
 			"ypos_minmode"			"17"
-			"font"					"HudFontSmallestBold"
+			"font"					"PolenticalNeonRegular12"
 			"font_hidef"			"HudFontSmallestBold"
 			"font_lodef"			"HudFontSmallestBold"
 		}
@@ -342,9 +342,9 @@
 			"xpos"					"cs-0.5"
 			"ypos"					"17"
 			"ypos_minmode"			"17"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			"font"					"PolenticalNeonRegular12"
+			"font_hidef"			"PolenticalNeonRegular12"
+			"font_lodef"			"PolenticalNeonRegular12"
 		}
 	}	
 	"ServerTimeLimitLabelBG"

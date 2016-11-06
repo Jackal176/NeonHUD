@@ -24,7 +24,7 @@
 		"xpos"			"-30"
 		"ypos"			"28"
 		"zpos"			"0"
-		"wide"			"150"
+		"wide"			"15"
 		"tall"			"75"
 		"visible"		"1"
 		"visible_minmode"	"0"

@@ -18,7 +18,7 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"HudFontMedium"
+		"delta_item_font"		"PolenticalNeonRegular12"
 		
 		"TimePanelValue"
 		{
@@ -27,10 +27,10 @@
 			"font"			"PolenticalNeonRegular12"
 			"fgcolor"		"TanLight"
 			"xpos"			"42" //23
-			"ypos"			"7" //11
+			"ypos"			"0" //11
 			"zpos"			"4"
 			"wide"			"65" //45
-			"tall"			"31"
+			"tall"			"60"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"		"center"
