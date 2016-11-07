@@ -1,9 +1,9 @@
-"Resource/UI/CharInfoPanel.res"
+"Resource/UI/LobbyContainerFrame.res"
 {
-	"character_info"
+	"LobbyContainerFrame"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"character_info"
+		"fieldName"		"LobbyContainerFrame"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"f0"
@@ -29,6 +29,8 @@
 		
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
+
+		"NavToRelay"			"BackButton"
 	}
 	
 	"BackgroundHeader"
@@ -76,7 +78,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}	
-
+	
 	"Sheet"
 	{
 		"ControlName"	"EditablePanel"
@@ -86,6 +88,21 @@
 		"tabwidth"		"240"
 		"tabheight"		"34"
 		"transition_time" "0"
+		
+		"HeaderLine"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"HeaderLine"
+			"xpos"			"0"
+			"ypos"			"32"
+			"zpos"			"5"
+			"wide"			"f0"
+			"tall"			"10"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"loadout_solid_line"
+			"scaleImage"	"1"
+		}				
 		
 		"tabskv"
 		{
@@ -99,7 +116,7 @@
 			"normalborder_override" ""
 		}
 	}
-	
+
 	"BackButton"
 	{
 		"ControlName"	"CExButton"
@@ -107,20 +124,20 @@
 		"xpos"			"c-295"
 		"ypos"			"437"
 		"zpos"			"2"
-		"wide"			"100"
+		"wide"			"180"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"<< Back"
 		"font"			"PolenticalNeonBold18"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"default"		"0"
 		"Command"		"back"
+		"NavUp"			"PlayNowButton"
+		"NavRight"		"LearnMoreButton"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"defaultBgColor_override"	"0 0 0 0"
@@ -131,8 +148,8 @@
 		"depressedFgColor_override" "255 255 255 255"
 		"border_default"			""
 		"border_armed"				"ButtonHover"
-	}		
-	
+	}
+
 	"NotificationsPresentPanel"
 	{
 		"ControlName"	"CNotificationsPresentPanel"
@@ -144,5 +161,110 @@
 		"tall"			"50"
 		"visible"		"0"
 		"enabled"		"1"
+	}
+
+	"MatchmakingBanPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"MatchmakingBanPanel"
+		"xpos"			"c-113"
+		"ypos"			"428"
+		"zpos"			"2"
+		"wide"			"220"
+		"tall"			"40"
+		"visible"		"0"
+		"enabled"		"1"
+		"mouseinputenabled"	"0"
+		"bgcolor_override"	"Black"
+
+		"MatchmakingBanDurationLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"MatchmakingBanDurationLabel"
+			"font"			"HudFontSmallest"
+			"fgcolor_override"	"RedSolid"
+			"labelText"		"#TF_Matchmaking_Ban_Duration_Remaining"
+			"textalignment"	"center"
+			"xpos"			"5"
+			"ypos"			"0"
+			"zpos"			"2"
+			"wide"			"200"
+			"tall"			"40"
+			"visible"		"1"
+			"enabled"		"1"
+			"autoResize"	"1"
+			"pinCorner"		"0"
+		}
+	}
+
+
+	"NextButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"NextButton"
+		"xpos"			"c+120"
+		"ypos"			"437"
+		"zpos"			"2"
+		"wide"			"180"
+		"tall"			"25"
+		"autoResize"	"0"
+		//"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"font"			"PolenticalNeonBold18"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"Command"		"next"
+		"NavUp"			"StartPartyButton"
+		"NavDown"		"LearnMoreButton"
+		"NavLeft"		"LearnMoreButton"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"defaultBgColor_override"	"0 0 0 0"
+		"armedBgColor_override"		"44 44 44 240"
+		"depressedBgColor_override"	"44 44 44 240"
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override" 	"255 255 255 255"
+		"depressedFgColor_override" "255 255 255 255"
+		"border_default"			""
+		"border_armed"				"ButtonHover"
+	}
+
+	"StartPartyButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"StartPartyButton"
+		"xpos"			"c+110"
+		"ypos"			"310"
+		"zpos"			"10"
+		"wide"			"160"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#TF_Matchmaking_StartParty"
+		"font"			"PolenticalNeonBold18"
+		"textAlignment"	"center"
+		"textinsetx"	"50"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"Command"		"start_party"
+		"NavUp"			"Sheet"
+		"NavDown"		"NextButton"
+		"NavLeft"		"PracticeButton"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"defaultBgColor_override"	"0 0 0 0"
+		"armedBgColor_override"		"44 44 44 240"
+		"depressedBgColor_override"	"44 44 44 240"
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override" 	"255 255 255 255"
+		"depressedFgColor_override" "255 255 255 255"
+		"border_default"			""
+		"border_armed"				"ButtonHover"
 	}
 }

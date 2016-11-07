@@ -3119,6 +3119,116 @@ Scheme
 			}
 		}
 		
+			PolenticalNeonBold22
+		{
+			"1"
+			{
+				"name"		"Polentical Neon Bold"
+				"tall"		"22"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+			PolenticalNeonBold24
+		{
+			"1"
+			{
+				"name"		"Polentical Neon Bold"
+				"tall"		"24"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+			PolenticalNeonBold26
+		{
+			"1"
+			{
+				"name"		"Polentical Neon Bold"
+				"tall"		"26"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+			PolenticalNeonBold28
+		{
+			"1"
+			{
+				"name"		"Polentical Neon Bold"
+				"tall"		"28"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+			PolenticalNeonBold30
+		{
+			"1"
+			{
+				"name"		"Polentical Neon Bold"
+				"tall"		"30"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+			PolenticalNeonBold32
+		{
+			"1"
+			{
+				"name"		"Polentical Neon Bold"
+				"tall"		"32"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+			PolenticalNeonBold34
+		{
+			"1"
+			{
+				"name"		"Polentical Neon Bold"
+				"tall"		"34"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+			PolenticalNeonBold36
+		{
+			"1"
+			{
+				"name"		"Polentical Neon Bold"
+				"tall"		"36"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+			PolenticalNeonBold38
+		{
+			"1"
+			{
+				"name"		"Polentical Neon Bold"
+				"tall"		"38"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+			PolenticalNeonBold40
+		{
+			"1"
+			{
+				"name"		"Polentical Neon Bold"
+				"tall"		"40"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
 		"XPSource"
 		{
 			"1"
